@@ -1,4 +1,4 @@
-package Techno_Hacks;
+//Build a program that allows ussers to add,remove and view on to a to_do_list
 
 import java.util.ArrayList;
 import java.util.Scanner;
