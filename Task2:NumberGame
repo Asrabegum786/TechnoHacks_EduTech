@@ -1,5 +1,5 @@
 
-
+//Create a program that asks the user to guess a number between 1to 100.The program should then give hints to the user untill they guess the correct number
 import java.util.Random;
 import java.util.Scanner;
 
