@@ -1,4 +1,4 @@
-
+//Build a program that displays a series of multiple choice questions and lets the user select correct answer
 
 import java.util.Scanner;
 
@@ -6,16 +6,15 @@ public class QuizGame {
 	public static void main(String[] args) {
 		// Define questions, choices, and answers
 		System.out.println("Welcome to Quiz Game!");
-		String[][] questions = { { "what day is on june 12,2002", "A) Monday", "B)Sunday", "C)Friday", "D)Wednesday)" },
-				{ "What was the day of the week on 28th may,2006", "A)Thursday", "B)Friday", "C)Saturday", "D)Sunday" },
-				{ "what was the day of the week on 17th june,1998 ", "A)Monday", "B)Tuesday", "C) Wednesday",
-						"D)Thursday" },
-				{ "Look at this series 7,10,8,11,9,12,... What number should come next", "A)7", "B)10", "C)12",
-						"D)13" },
-				{ "what percentage of  numbers from 1to 70 have 1or9 in the unit's digit", "A)1", "B)14", "C)20",
-						"D)21" } };
+		String[][] questions = { { ".....is used to find and fix bugs in java programs", "A) JVM", "B)JRE", "C)JDK", "D)JDB" },
+				{ "Which type of inheritence does not support in java?", "A)Multiple", "B)Hybrid", "C)Multi_level", "D)Single_level" },
+				{ "What is the default size of ArrayList in java?", "A)10", "B)8", "C)12","D)11" },
+				{ "Checked Exceptions are also known as ........?", "A)Run_time_exceptions", "B)Compile_time_Exceptions", "C)Custom_Exceptions",
+						"D)None" },
+				{ "stack consists of ......order ", "A)FIFO", "B)is_A", "C)Lifo",
+						"D)Has_A" } };
 		// storing the correct answers in character array
-		char[] answers = { 'D', 'D', 'C', 'B', 'c' };
+		char[] answers = { 'D', 'A', 'A', 'B', 'C' };
 
 		Scanner scanner = new Scanner(System.in);
 		int score = 0;
